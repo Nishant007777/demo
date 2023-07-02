@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6347;
+}
+.item ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.item ul li{
+    list-style-type: none;
+}
+.item ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color:#fff;
+}
+.logo{
+    padding: 33px;
+    font-size: 3.9rem;
+    font-weight: bolder;
+    color:rgba(155, 225, 230, 0.83);
+}
+
+.firstsec{
+    padding-bottom: 50px;
+    background-color: #ff6347;
+}
+.firstsec h1{
+    font-size: 4.3rem;
+    padding: 25px;
+    
+}
+.firstsec p{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+   font-size: 1.6rem;
+}
+.btn{
+    background-color: transparent;
+    padding: 15px;
+   margin-left: 24px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+}
+.btn:hover{
+    transition: all 1s ease;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.about{
+    background-color: #fe7158;
+    margin: 0;
+    padding: 28px;
+}
+.about h2{
+    color: black;
+    font-size:3rem;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.para{
+    font-size: 1.06rem;
+    padding: 10px;
+}
+.paragraph{
+    font-size: 1.06rem;
+    padding: 10px;
+}
+img{
+    border-radius: 9px;
+   height: 300px;
+   width: 400px;
+}
+.row{
+    background-color: #333333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.our-service{
+    color: #fff;
+    background-color: #333333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+}
+.pic p,a{
+    color: #fff;
+    padding: 22px;
+}
+h3{
+    color: #fff;
+    margin: 13px;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+.button{
+    margin:20px;
+    padding: 9px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid aqua;
+    color: aqua;
+    background-color: transparent;
+}
+.button:hover{
+    transition: all 1s ease;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.heading{
+    color: #fff;
+    background-color: #333333;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 2.8rem;
+}
+.blank{
+    background-color: #fe7158;
+    padding: 6.5rem 12px;
+}
+.text{
+    font-size: 2.3rem;
+}
+
